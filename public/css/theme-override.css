@@ -1,1 +1,80 @@
 footer { font-size: 90%; }
+
+/* Apply Atkinson Hyperlegible to the entire site */
+html, body, p, div, span, blockquote, input, textarea {
+    font-family: 'Atkinson Hyperlegible', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure headers also use it, unless you want them different */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Atkinson Hyperlegible', sans-serif !important;
+    font-weight: 700;
+}
+
+/* Optional: Keep code blocks in monospace so they stay readable */
+code, pre {
+    font-family: monospace !important;
+}
+
+/* Find the links in the footer and add icons before them */
+footer a[href*="github.com"]::before {
+    font-family: "Font Awesome 6 Brands";
+    content: "\f09b"; /* GitHub Icon Unicode */
+    margin-right: 5px;
+}
+
+footer a[href*="linkedin.com"]::before {
+    font-family: "Font Awesome 6 Brands";
+    content: "\f08c"; /* LinkedIn Icon Unicode */
+    margin-right: 5px;
+}
+
+/* 1. Remove the default underline from the whole link */
+footer a[href*="github.com"], 
+footer a[href*="linkedin.com"] {
+    text-decoration: none !important;
+}
+
+/* 2. Add the underline back only to the text part */
+footer a[href*="github.com"]:hover, 
+footer a[href*="linkedin.com"]:hover {
+    text-decoration: underline !important;
+}
+
+/* 3. Ensure the icon specifically never has an underline */
+footer a::before {
+    display: inline-block;
+    text-decoration: none !important;
+    margin-right: 6px; /* Adjust spacing between icon and text */
+}
+
+.featured-quote {
+    display: inline-block;    /* Allows it to sit next to the image */
+    vertical-align: middle;   /* Keeps it level with the image center */
+    text-align: center;       /* Centers the quote and author within the block */
+    
+    /* Ensure the block itself is centered if it's on a new line */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Remove any background/border as requested */
+    background: none !important;
+    border: none !important;
+}
+
+.featured-quote code {
+    white-space: pre-wrap !important;
+    font-family: inherit !important;
+    background: none !important;
+    display: inline-block;    /* Ensures text-align: center works on it */
+    text-align: center;       /* Centers the lines of text */
+}
+
+/* Fix the quote marks to stay centered with the text */
+.featured-quote q {
+    display: inline;
+    text-align: center;
+}
+
