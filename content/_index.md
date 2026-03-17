@@ -26,7 +26,7 @@ My academic career spans many an area:
            e.target.style.cursor = `url(/images/cursors/ceres-fauna-cursor-clicky.png) 0 0, pointer`;
          }
        });
-     }, 300)' 
+     }, 3000)' 
      onmouseleave='clearTimeout(this.t)'>
 
 #### Systems & Infrastructure
