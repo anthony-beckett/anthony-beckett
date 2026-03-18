@@ -115,3 +115,48 @@ footer a::before {
     0%   { transform: translateX(0); }
     100% { transform: translateX(-50%); } 
 }
+
+#easter-egg-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    z-index: 9999;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #easter-egg-overlay img {
+        animation: none !important;
+    }
+}
+
+/* Update this selector to match your JS 'shake-active' class on the body */
+@media (prefers-reduced-motion: no-preference) {
+    #easter-egg-overlay img {
+        display: block !important;
+        animation: violent-shake 0.25s infinite !important;
+        will-change: transform;
+    }
+}
+
+@keyframes violent-shake {
+     0% { transform: translate(5px, 5px) rotate(0deg); }
+    10% { transform: translate(-5px, -8px) rotate(-3deg); }
+    20% { transform: translate(-10px, 0px) rotate(3deg); }
+    30% { transform: translate(10px, 8px) rotate(0deg); }
+    40% { transform: translate(5px, -5px) rotate(3deg); }
+    50% { transform: translate(-5px, 8px) rotate(-3deg); }
+    60% { transform: translate(-10px, 5px) rotate(0deg); }
+    70% { transform: translate(10px, 5px) rotate(-3deg); }
+    80% { transform: translate(-5px, -5px) rotate(3deg); }
+    90% { transform: translate(5px, 8px) rotate(0deg); }
+    100% { transform: translate(5px, -8px) rotate(-3deg); }
+}
