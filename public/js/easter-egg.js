@@ -6,7 +6,7 @@ const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 const source = audioCtx.createMediaElementSource(secretSound);
 const gainNode = audioCtx.createGain();
 
-gainNode.gain.value = 10.0; 
+gainNode.gain.value = 3.0; 
 
 
 // Connect the path: File -> Multiplier -> Speakers
