@@ -55,7 +55,7 @@ I am most skilled in C, C++, Python, and JavaScript/TypeScript. I work primarily
 
 My passion lies at the meeting-place of systems, people, and the Good: how technology shapes our being, and how we, in turn, shape it.
 
-<img src="/images/partywizard.gif">
+<img src="/images/partywizard.webp">
 
 
 <center>
