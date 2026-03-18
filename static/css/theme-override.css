@@ -160,3 +160,11 @@ footer a::before {
     90% { transform: translate(5px, 8px) rotate(0deg); }
     100% { transform: translate(5px, -8px) rotate(-3deg); }
 }
+
+#dvd-gif {
+    position: fixed; /* 'fixed' keeps it on screen even when scrolling */
+    top: 0;
+    left: 0;
+    z-index: 9999;   /* Keep it above your content */
+    pointer-events: none; /* Optional: lets you click "through" it to links below */
+}

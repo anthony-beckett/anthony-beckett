@@ -55,11 +55,15 @@ I am most skilled in C, C++, Python, and JavaScript/TypeScript. I work primarily
 
 My passion lies at the meeting-place of systems, people, and the Good: how technology shapes our being, and how we, in turn, shape it.
 
-<img src="https://media.tenor.com/jVynenikAVwAAAAi/work-in-progress-wip.gif">
+<img src="/images/partywizard.gif">
+
 
 <center>
-<pre class="featured-quote"><code>
-<q>To God belong the east and the west: so whichever way you turn, there is the face of God!</q>
+<pre class="featured-quote">
+<code>
+<q>To God belong the east and the west:
+so whichever way you turn,
+<b>there</b> is the face of God!</q>
 <cite>Qur'an 2:115</cite>
 </code></pre>
 </center>
