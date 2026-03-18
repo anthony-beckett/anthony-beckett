@@ -57,10 +57,12 @@ My passion lies at the meeting-place of systems, people, and the Good: how techn
 
 <img src="https://media.tenor.com/jVynenikAVwAAAAi/work-in-progress-wip.gif">
 
+<center>
 <pre class="featured-quote"><code>
 <q>To God belong the east and the west: so whichever way you turn, there is the face of God!</q>
 <cite>Qur'an 2:115</cite>
 </code></pre>
+<center>
 
 
 ---
