@@ -2,7 +2,11 @@
 title: Home
 description: "The personal writings and expressions of Grayfox, otherwise known as you too and everyone else. It is a loving and silly place."
 ---
-## Welcome, traveller :purple_heart: :earth_asia: :purple_heart:
+<div class="marquee-wrapper">
+    <div class="marquee-move">
+        <span id="marquee-content" class="pixel-accent"></span>
+    </div>
+</div>
 
 I am a software engineer and metaphysician with around half a year of professional experience in defence and space. I am driven by the conviction that technology should never be a cold, disembodied force, but something deeply human --- shaped by ethics, society, and the primordial questions of being.
 

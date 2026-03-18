@@ -26,6 +26,10 @@
       })();
       </script>
 
+      {{ with resources.Get "js/marquee.js" | minify | fingerprint }}
+  <script src="{{ .RelPermalink }}" defer></script>
+{{ end }}
+
       {{ with .Site.Params.footer }}
       <hr/>
       {{ . | markdownify }}

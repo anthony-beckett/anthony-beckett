@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Sixtyfour Convergence';
+    src: url('/fonts/SixtyfourConvergence.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 footer { font-size: 90%; }
 
 /* Apply Atkinson Hyperlegible to the entire site */
@@ -78,3 +86,32 @@ footer a::before {
     text-align: center;
 }
 
+
+.pixel-accent {
+  font-family: "Sixtyfour Convergence", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" -25,
+    "XELA" -60,
+    "YELA" 60;
+}
+
+.marquee-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.marquee-move {
+    display: inline-block;
+    /* Use 'linear' for constant speed, adjust '20s' for speed */
+    animation: move-left 60s linear infinite;
+}
+
+@keyframes move-left {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); } 
+}
