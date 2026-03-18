@@ -43,3 +43,12 @@ footer = "[github](https://github.com/anthony-beckett) | [linkedin](https://link
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[mediaTypes]
+  [mediaTypes."image/webp"]
+    suffixes = ["webp"]
+
+[outputFormats]
+  [outputFormats.WEBP]
+    mediaType = "image/webp"
+    isPathCaseSensitive = true
