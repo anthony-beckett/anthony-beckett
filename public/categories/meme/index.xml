@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meme on AJBeckett</title>
+    <link>http://localhost:1313/categories/meme/</link>
+    <description>Recent content in Meme on AJBeckett</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/meme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/Lucky Star/</title>
+      <link>http://localhost:1313/post/2026/03/19/lucky-star/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2026/03/19/lucky-star/</guid>
+      <description>&lt;p&gt;&lt;button type=&#34;button&#34;&gt;Click Me!&lt;/button&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

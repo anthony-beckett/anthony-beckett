@@ -8,7 +8,7 @@ description: "The personal writings and expressions of Grayfox, otherwise known 
     </div>
 </div>
 
-I am a software engineer and metaphysician with around half a year of professional experience in defence and space. I am driven by the conviction that technology should never be a cold, disembodied force, but something deeply human --- shaped by ethics, society, and the primordial questions of being.
+I am a software engineer with around half a year of professional experience in defence and space. I am driven by the conviction that technology should never be a cold, disembodied force, but something deeply human --- shaped by ethics, society, and the primordial questions of being.
 
 My academic career spans many an area:
 
@@ -32,6 +32,7 @@ My academic career spans many an area:
        });
      }, 3000)' 
      onmouseleave='clearTimeout(this.t)'>
+     <!--<img src="https://www.codewars.com/users/Sulphuric/badges/large"/>-->
 
 #### Systems & Infrastructure
 * Systems Architecture

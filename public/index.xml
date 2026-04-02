@@ -6,8 +6,15 @@
     <description>Recent content in Home on AJBeckett</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/Lucky Star/</title>
+      <link>http://localhost:1313/post/2026/03/19/lucky-star/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2026/03/19/lucky-star/</guid>
+      <description>&lt;p&gt;&lt;button type=&#34;button&#34;&gt;Click Me!&lt;/button&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Markdown Guide (modified)</title>
       <link>http://localhost:1313/post/2018/08/30/markdown-guide-modified/</link>

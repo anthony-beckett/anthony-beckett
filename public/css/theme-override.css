@@ -168,3 +168,52 @@ footer a::before {
     z-index: 9999;   /* Keep it above your content */
     pointer-events: none; /* Optional: lets you click "through" it to links below */
 }
+
+/* Target all buttons and button-like elements */
+button, 
+input[type="button"], 
+input[type="submit"], 
+.btn-retro {
+  /* 1. Reset modern defaults */
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  
+  /* 2. Base Colors & Font */
+  color: #000000;
+  font-size: 13px;
+  padding: 4px 12px;
+  cursor: default;
+  
+  /* 3. The Classic Outset Border */
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #808080;
+  border-right: 2px solid #808080;
+  
+  /* Black outer edge for full accuracy */
+  outline: 1px solid #000000;
+  outline-offset: -1px; /* Positions black line correctly */
+  
+  margin: 4px;
+}
+
+/* 4. The "Pressed" Effect */
+button:active,
+input[type="button"]:active {
+  border-top: 2px solid #808080;
+  border-left: 2px solid #808080;
+  border-bottom: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  
+  /* Shift text to simulate physical movement */
+  padding: 5px 11px 3px 13px;
+}
+
+
+/* 6. Disabled State */
+button:disabled {
+  color: #808080;
+  text-shadow: 1px 1px 0px #ffffff;
+}
