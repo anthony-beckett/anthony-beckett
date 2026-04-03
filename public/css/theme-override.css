@@ -232,11 +232,11 @@ button:disabled {
 /* We now have two separate walking classes */
 .walk-right {
   /* 'forwards' tells it to stay parked at the 100% mark when finished */
-  animation: walkRight 2s linear forwards;
+  animation: walkRight 6s linear forwards;
 }
 
 .walk-left {
-  animation: walkLeft 2s linear forwards;
+  animation: walkLeft 6s linear forwards;
 }
 
 @keyframes walkRight {
