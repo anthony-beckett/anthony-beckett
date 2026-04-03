@@ -61,7 +61,7 @@ roamer.addEventListener('click', function() {
     }
 
     // 3. Swap to the static image
-    roamer.src = '/images/homer-dead.png';
+    roamer.src = '/images/homer-dead.webp';
 
     // Broadcast the event
     const caughtEvent = new CustomEvent('roamerCaught');
