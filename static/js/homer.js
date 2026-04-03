@@ -25,8 +25,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
+const whackSound = new Audio('/sounds/homer-scream.mp3');
+
 roamer.addEventListener('click', function() {
-    if (isCaught) return; 
+    if (isCaught)
+	return; 
+    
+    whackSound.play();
     isCaught = true;
     
     clearTimeout(timeoutId);
