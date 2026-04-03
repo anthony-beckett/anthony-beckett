@@ -217,3 +217,36 @@ button:disabled {
   color: #808080;
   text-shadow: 1px 1px 0px #ffffff;
 }
+
+.roaming-gif {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 80px; 
+  height: auto;
+  z-index: 999999 !important; /* Force it to the absolute top */
+  pointer-events: auto !important; /* Force it to accept clicks */
+  transform: translateX(-100%);
+}
+
+/* We now have two separate walking classes */
+.walk-right {
+  /* 'forwards' tells it to stay parked at the 100% mark when finished */
+  animation: walkRight 2s linear forwards;
+}
+
+.walk-left {
+  animation: walkLeft 2s linear forwards;
+}
+
+@keyframes walkRight {
+  /* Start left, face normal, end right */
+  0%   { transform: translateX(-100%) scaleX(1); }
+  100% { transform: translateX(100vw) scaleX(1); }
+}
+
+@keyframes walkLeft {
+  /* Start right, instantly flip to face left (-1), end left */
+  0%   { transform: translateX(100vw) scaleX(-1); }
+  100% { transform: translateX(-100%) scaleX(-1); }
+}
